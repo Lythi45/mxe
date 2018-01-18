@@ -4,7 +4,8 @@ PKG             := protobuf
 $(PKG)_WEBSITE  := https://github.com/google/protobuf
 $(PKG)_IGNORE   :=
 $(PKG)_VERSION  := 3.4.1
-$(PKG)_CHECKSUM := 8b8e442becbeff637f160c1ef4a3a56769c50ba7c9ff939ccc94086530ff00e4
+$(PKG)_CHECKSUM := 8e0236242106e680b4f9f576cc44b8cd711e948b20a9fc07769b0a20ceab9cc4
+                   
 $(PKG)_SUBDIR   := $(PKG)-$($(PKG)_VERSION)
 $(PKG)_FILE     := $(PKG)-$($(PKG)_VERSION).tar.gz
 $(PKG)_URL      := https://github.com/google/$(PKG)/archive/v$($(PKG)_VERSION).tar.gz
